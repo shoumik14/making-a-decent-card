@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+    height: 500px;
+    width: 300px;
+}
+img{
+    display: block;
+    width: 95%;
+    margin: 5px auto;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.card h3{
+    margin:0 10px;
+    font-size: 30px;
+}
+
+.buttons button{
+    padding: 5px;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid gray;
+    color: gray;
+
+}
